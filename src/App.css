@@ -10,12 +10,12 @@
 }
 
 .navbar-brand {
-  border: 2px;
+  /* border: 2px;
   border-style: solid;
   border-color: rgb(248, 249, 250, 0.1) !important;
   font-size: 20px;
   border-radius: 0.5px;
-  box-shadow: 0px 0px 0px 8px rgba(248, 249, 250 0.1);
+  box-shadow: 0px 0px 0px 8px rgba(248, 249, 250 0.1); */
 }
 
 .badge-info {
