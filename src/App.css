@@ -19,6 +19,10 @@
   box-shadow: 0px 0px 0px 8px rgba(248, 249, 250 0.1); */
 }
 
+.sounds-button {
+  margin-right: 2px;
+}
+
 .badge-info {
   background-color: #292e49 !important;
   font-size: 22px;

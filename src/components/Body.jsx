@@ -102,13 +102,14 @@ const Body = () => {
                 in 2 steps as everything is dynamically created. Download below.
               </p>
               <a
-                className="github-button"
+                className="github-button sounds-button"
                 href="https://github.com/jhadev/sounds"
                 data-size="large"
                 aria-label="sounds"
               >
                 Sounds on Github
               </a>
+              <span>{"\u00A0"}</span>
               <a
                 className="github-button"
                 href="https://github.com/jhadev/sounds/archive/master.zip"
@@ -321,7 +322,7 @@ const Body = () => {
                 data-size="large"
                 aria-label="breaking"
               >
-                Breaking Bad Game on Github
+                React Game on Github
               </a>
               <a
                 className="btn mt-1 btn-block btn-outline-primary"
@@ -360,7 +361,7 @@ const Body = () => {
                 data-size="large"
                 aria-label="perfecto"
               >
-                Perfecto Importers on Github
+                Perfecto Importers
               </a>
             </div>
           </div>
