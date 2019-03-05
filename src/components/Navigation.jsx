@@ -23,8 +23,10 @@ class Navigation extends Component {
     return (
       <div className="sticky-top shadow">
         <Navbar color="dark" dark fixed="fixed" expand="md">
-          <NavbarBrand href="/">
-            {"\u00A0"} josh appel {"\u00A0"}
+          <NavbarBrand href="#">
+            {"[ "}
+            {"\u00A0"}josh appel{"\u00A0"}
+            {" ]"}
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
