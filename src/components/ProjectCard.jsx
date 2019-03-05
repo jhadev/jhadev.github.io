@@ -1,0 +1,37 @@
+import React from "react";
+
+const ProjectCard = ({ id, name, image, description, github, link }) => {
+  return (
+    <div className="col-lg-4 col-md-6 col-12">
+      <div className="card shadow mx-auto my-2">
+        <img src={image} className="card-img-top" alt={name} />
+        <div className="card-body text-center">
+          <h5 className="card-title text-center">{name}</h5>
+          <p className="card-text">{description}</p>
+          <a
+            className="github-button"
+            href={github}
+            data-size="large"
+            aria-label={name}
+          >
+            {name} on Github
+          </a>
+          {id < 8 && (
+            <a
+              className="btn mt-1 btn-block btn-outline-primary"
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+              data-size="large"
+              aria-label="heroku-link"
+            >
+              View Project
+            </a>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ProjectCard;
