@@ -21,7 +21,7 @@ class Navigation extends Component {
   };
   render() {
     return (
-      <div className="sticky-top">
+      <div className="sticky-top shadow">
         <Navbar color="dark" dark fixed="fixed" expand="md">
           <NavbarBrand href="/">
             {"\u00A0"} josh appel {"\u00A0"}
