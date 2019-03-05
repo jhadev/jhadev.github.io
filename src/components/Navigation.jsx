@@ -10,19 +10,15 @@ import {
 } from "reactstrap";
 
 class Navigation extends Component {
-  constructor(props) {
-    super(props);
+  state = {
+    isOpen: false
+  };
 
-    this.toggle = this.toggle.bind(this);
-    this.state = {
-      isOpen: false
-    };
-  }
-  toggle() {
+  toggle = () => {
     this.setState({
       isOpen: !this.state.isOpen
     });
-  }
+  };
   render() {
     return (
       <div className="sticky-top">
