@@ -12,6 +12,7 @@ const Body = () => {
             <div className="card-body text-center">
               <h4 className="title">Josh Appel</h4>
               <h5 className="title2 font-italic">Fullstack Web Developer</h5>
+              <p className="card-text">joshappeldev@gmail.com</p>
               <p className="card-text">
                 Coding has become a passion for me. I enjoy learning new
                 languages and building clean, responsive, and functional web
@@ -49,7 +50,7 @@ const Body = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col-md-4 col-12">
+        <div className="col-lg-4 col-md-6 col-12">
           <div className="card shadow mx-auto my-2">
             <img
               src="https://user-images.githubusercontent.com/42519030/49109709-68db1700-f259-11e8-8770-27a48af21584.png"
@@ -86,7 +87,7 @@ const Body = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4 col-12">
+        <div className="col-lg-4 col-md-6 col-12">
           <div className="card shadow mx-auto my-2">
             <img
               src="https://user-images.githubusercontent.com/42519030/53685086-1a1f9c00-3ce4-11e9-9dc8-de5e54786efc.PNG"
@@ -132,7 +133,7 @@ const Body = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4 col-12">
+        <div className="col-lg-4 col-md-6 col-12">
           <div className="card shadow mx-auto my-2">
             <img
               src="https://user-images.githubusercontent.com/42519030/53701452-8923f000-3dcb-11e9-8d2e-69ca8b2d2452.gif"
@@ -167,9 +168,8 @@ const Body = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="row">
-        <div className="col-md-4 col-12">
+
+        <div className="col-lg-4 col-md-6 col-12">
           <div className="card shadow mx-auto my-2">
             <img
               src="https://user-images.githubusercontent.com/42519030/50379099-6cba4900-060d-11e9-98f2-8509e2e71a91.PNG"
@@ -204,7 +204,7 @@ const Body = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4 col-12">
+        <div className="col-lg-4 col-md-6 col-12">
           <div className="card shadow mx-auto my-2">
             <img
               src="https://user-images.githubusercontent.com/42519030/53699295-984b7380-3db4-11e9-8c03-7e6b1abfbb89.jpg"
@@ -240,7 +240,7 @@ const Body = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4 col-12">
+        <div className="col-lg-4 col-md-6 col-12">
           <div className="card shadow mx-auto my-2">
             <img
               src="https://user-images.githubusercontent.com/42519030/50379137-e6066b80-060e-11e9-9d00-de2afd24080f.PNG"
@@ -274,9 +274,8 @@ const Body = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="row">
-        <div className="col-md-4 col-12">
+
+        <div className="col-lg-4 col-md-6 col-12">
           <div className="card shadow mx-auto my-2">
             <img
               src="https://github.com/jhadev/liri-hw/raw/master/images/spotifyThis.PNG"
@@ -301,7 +300,7 @@ const Body = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4 col-12">
+        <div className="col-lg-4 col-md-6 col-12">
           <div className="card shadow mx-auto my-2">
             <img
               src="https://user-images.githubusercontent.com/42519030/53745412-f6d42880-3e6c-11e9-9270-2b952f5fdcb4.jpg"
@@ -322,7 +321,7 @@ const Body = () => {
                 data-size="large"
                 aria-label="breaking"
               >
-                React Game on Github
+                Breaking Bad Game on Github
               </a>
               <a
                 className="btn mt-1 btn-block btn-outline-primary"
@@ -337,7 +336,7 @@ const Body = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4 col-12">
+        <div className="col-lg-4 col-md-6 col-12">
           <div className="card shadow mx-auto my-2">
             <img
               src="https://user-images.githubusercontent.com/42519030/53740389-0f8b1100-3e62-11e9-904d-045248045551.jpg"
@@ -361,7 +360,7 @@ const Body = () => {
                 data-size="large"
                 aria-label="perfecto"
               >
-                Perfecto Importers
+                Perfecto Importers on Github
               </a>
             </div>
           </div>
