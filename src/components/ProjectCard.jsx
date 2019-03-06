@@ -1,7 +1,7 @@
 import React from "react";
 import { Col } from "reactstrap";
 
-const ProjectCard = ({ id, name, image, description, github, link }) => {
+const ProjectCard = ({ name, image, description, github, link }) => {
   return (
     <Col lg="4" md="6" xs="12">
       <div className="card shadow mx-auto my-2">
@@ -9,15 +9,30 @@ const ProjectCard = ({ id, name, image, description, github, link }) => {
         <div className="card-body text-center">
           <h5 className="card-title text-center">{name}</h5>
           <p className="card-text">{description}</p>
-          <a
-            className="github-button"
-            href={github}
-            data-size="large"
-            aria-label={name}
-          >
-            {name} on Github
-          </a>
-          {id < 8 && (
+          <div>
+            <a
+              className="github-button"
+              href={github}
+              data-size="large"
+              aria-label={name}
+            >
+              {name} on Github
+            </a>
+          </div>
+          {name === "Sounds" && (
+            <div>
+              <a
+                className="github-button"
+                href="https://github.com/jhadev/sounds/archive/master.zip"
+                data-icon="octicon-cloud-download"
+                data-size="large"
+                aria-label="Download jhadev/sounds on GitHub"
+              >
+                Download
+              </a>
+            </div>
+          )}
+          {link !== null && (
             <a
               className="btn mt-1 btn-block btn-outline-primary"
               href={link}

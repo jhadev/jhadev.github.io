@@ -48,7 +48,7 @@
   },
   {
     "id": 7,
-    "name": "Breaking Bad Memory Game",
+    "name": "React Memory Game",
     "image": "https://user-images.githubusercontent.com/42519030/53745412-f6d42880-3e6c-11e9-9270-2b952f5fdcb4.jpg",
     "description": "A memory game themed for Breaking Bad. Built with React using Reactstrap. Don't pick the same character twice.",
     "github": "https://github.com/jhadev/breaking-react-game/tree/code",
@@ -60,7 +60,7 @@
     "image": "https://github.com/jhadev/liri-hw/raw/master/images/spotifyThis.PNG",
     "description": "A Node.js CLI app that uses the OMDB, Spotify, and Bands In Town APIs to pull info about movies, songs, artists, and upcoming concerts.",
     "github": "https://github.com/jhadev/liri",
-    "link": "https://github.com/jhadev/liri"
+    "link": null
   },
   {
     "id": 9,
@@ -68,6 +68,6 @@
     "image": "https://user-images.githubusercontent.com/42519030/53740389-0f8b1100-3e62-11e9-904d-045248045551.jpg",
     "description": "A front-end React app built for a wine importer. End product will allow potential customers and wine buyers to learn about the company and their wine portfolio, complete with a faux cart system (for legal reasons) to calculate costs of a potential order with automated quantity discounts.",
     "github": "https://github.com/jhadev/perfecto",
-    "link": "https://github.com/jhadev/perfecto"
+    "link": null
   }
 ]

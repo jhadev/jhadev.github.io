@@ -24,11 +24,7 @@ class Navigation extends Component {
     return (
       <div className="sticky-top shadow">
         <Navbar color="dark" dark fixed="fixed" expand="md">
-          <Animated
-            animationIn="zoomIn"
-            animationInDelay="4"
-            animateOnMount="false"
-          >
+          <Animated animationIn="zoomIn">
             <NavbarBrand href="#">
               {"[ "}
               {"\u00A0"}josh appel{"\u00A0"}

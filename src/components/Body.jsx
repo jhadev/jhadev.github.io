@@ -14,11 +14,7 @@ class Body extends Component {
   render() {
     return (
       <Container>
-        <Animated
-          animationIn="zoomIn"
-          animationInDelay="1"
-          animateOnMount="false"
-        >
+        <Animated animationIn="zoomIn">
           <Row className="justify-content-center mt-5">
             <Col md="6" xs="12">
               <h2 id="about" className="about text-center text-light mb-3">
@@ -28,11 +24,7 @@ class Body extends Component {
             </Col>
           </Row>
         </Animated>
-        <Animated
-          animationIn="zoomIn"
-          animationInDelay="2"
-          animateOnMount="false"
-        >
+        <Animated animationIn="zoomIn">
           <Row className="mt-5">
             <Col xs="12">
               <h2
@@ -57,11 +49,7 @@ class Body extends Component {
             ))}
           </Row>
         </Animated>
-        <Animated
-          animationIn="zoomIn"
-          animationInDelay="3"
-          animateOnMount="false"
-        >
+        <Animated animationIn="zoomIn">
           <Row className="justify-content-center mt-5">
             <Col md="6" xs="12">
               <h2 id="contact" className="contact text-center text-light mb-3">
