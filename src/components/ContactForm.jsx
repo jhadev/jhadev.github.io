@@ -3,7 +3,7 @@ import React from "react";
 const ContactForm = () => {
   return (
     <div className="col-md-6 col-12">
-      <div className="card shadow mt-2">
+      <div className="card shadow mb-5">
         <div className="card-header text-center">Send Me a Message</div>
         <div className="card-body">
           <form
@@ -18,6 +18,9 @@ const ContactForm = () => {
                 placeholder="Name"
                 name="name"
               />
+              {/* <small id="help" className="form-text text-muted">
+                Enter your name.
+              </small> */}
             </div>
             <label htmlFor="email">Email</label>
             <div className="form-group">
@@ -27,6 +30,9 @@ const ContactForm = () => {
                 placeholder="joshappeldev@gmail.com"
                 name="_replyto"
               />
+              {/* <small id="email-help" className="form-text text-muted">
+                Enter your email.
+              </small> */}
             </div>
             <div className="form-group">
               <label htmlFor="exampleFormControlTextarea1">Message</label>

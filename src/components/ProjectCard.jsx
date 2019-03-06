@@ -1,8 +1,9 @@
 import React from "react";
+import { Col } from "reactstrap";
 
 const ProjectCard = ({ id, name, image, description, github, link }) => {
   return (
-    <div className="col-lg-4 col-md-6 col-12">
+    <Col lg="4" md="6" xs="12">
       <div className="card shadow mx-auto my-2">
         <img src={image} className="card-img-top" alt={name} />
         <div className="card-body text-center">
@@ -30,7 +31,7 @@ const ProjectCard = ({ id, name, image, description, github, link }) => {
           )}
         </div>
       </div>
-    </div>
+    </Col>
   );
 };
 
