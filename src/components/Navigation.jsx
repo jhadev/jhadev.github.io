@@ -8,6 +8,7 @@ import {
   NavItem,
   NavLink
 } from "reactstrap";
+import { Animated } from "react-animated-css";
 
 class Navigation extends Component {
   state = {
@@ -23,11 +24,17 @@ class Navigation extends Component {
     return (
       <div className="sticky-top shadow">
         <Navbar color="dark" dark fixed="fixed" expand="md">
-          <NavbarBrand href="#">
-            {"[ "}
-            {"\u00A0"}josh appel{"\u00A0"}
-            {" ]"}
-          </NavbarBrand>
+          <Animated
+            animationIn="zoomIn"
+            animationInDelay="4"
+            animateOnMount="false"
+          >
+            <NavbarBrand href="#">
+              {"[ "}
+              {"\u00A0"}josh appel{"\u00A0"}
+              {" ]"}
+            </NavbarBrand>
+          </Animated>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
