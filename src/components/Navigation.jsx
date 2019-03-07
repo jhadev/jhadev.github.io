@@ -24,7 +24,7 @@ class Navigation extends Component {
     return (
       <div className="sticky-top shadow">
         <Navbar color="dark" dark fixed="fixed" expand="md">
-          <Animated animationIn="zoomIn">
+          <Animated animationIn="slideInDown">
             <NavbarBrand href="#">
               {"[ "}
               {"\u00A0"}josh appel{"\u00A0"}
@@ -33,7 +33,7 @@ class Navigation extends Component {
           </Animated>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
+            <Nav className="ml-auto animated slideInLeft" navbar>
               <NavItem>
                 <NavLink href="#about">About</NavLink>
               </NavItem>
