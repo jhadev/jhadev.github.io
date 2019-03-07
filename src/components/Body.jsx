@@ -14,30 +14,25 @@ class Body extends Component {
   render() {
     return (
       <Container>
-        <Row className="justify-content-center mt-5">
-          <Col md="6" xs="12">
-            <h2
-              id="about"
-              className="animated slideInLeft about text-center text-light mb-3"
-            >
-              About Me
-            </h2>
-            <Animated animationIn="slideInRight">
+        <Animated animationIn="zoomIn">
+          <Row className="justify-content-center mt-5">
+            <Col md="6" xs="12">
+              <h2 id="about" className="about text-center text-light mb-3">
+                About Me
+              </h2>
               <About />
-            </Animated>
-          </Col>
-        </Row>
-        <Row className="mt-5">
-          <Col xs="12">
-            <h2
-              id="portfolio"
-              className="animated slideInLeft portfolio text-center text-light mb-3"
-            >
-              Portfolio
-            </h2>
-          </Col>
-        </Row>
-        <Animated animationIn="slideInRight">
+            </Col>
+          </Row>
+          <Row className="mt-5">
+            <Col xs="12">
+              <h2
+                id="portfolio"
+                className=" portfolio text-center text-light mb-3"
+              >
+                Portfolio
+              </h2>
+            </Col>
+          </Row>
           <Row>
             {this.state.projects.map(project => (
               <ProjectCard
@@ -51,18 +46,13 @@ class Body extends Component {
               />
             ))}
           </Row>
-        </Animated>
-        <Row className="justify-content-center mt-5">
-          <Col md="6" xs="12">
-            <h2
-              id="contact"
-              className="contact text-center text-light mb-3 animated slideInLeft"
-            >
-              Contact
-            </h2>
-          </Col>
-        </Row>
-        <Animated animationIn="slideInRight">
+          <Row className="justify-content-center mt-5">
+            <Col md="6" xs="12">
+              <h2 id="contact" className="contact text-center text-light mb-3 ">
+                Contact
+              </h2>
+            </Col>
+          </Row>
           <Row className="justify-content-center">
             <ContactForm />
           </Row>

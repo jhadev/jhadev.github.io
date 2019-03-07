@@ -33,7 +33,7 @@ class Navigation extends Component {
           </Animated>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto animated slideInLeft" navbar>
+            <Nav className="ml-auto animated zoomIn" navbar>
               <NavItem>
                 <NavLink href="#about">About</NavLink>
               </NavItem>
