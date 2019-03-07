@@ -32,7 +32,7 @@ const ProjectCard = ({ name, image, description, github, link }) => {
               </a>
             </div>
           )}
-          {link !== null && (
+          {link && (
             <a
               className="btn mt-1 btn-block btn-outline-primary"
               href={link}
@@ -41,7 +41,7 @@ const ProjectCard = ({ name, image, description, github, link }) => {
               data-size="large"
               aria-label="heroku-link"
             >
-              View Project
+              View {name === "Sounds" ? "Demo" : "Project"}
             </a>
           )}
         </div>
