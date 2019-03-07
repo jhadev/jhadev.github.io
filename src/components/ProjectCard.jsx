@@ -5,7 +5,9 @@ const ProjectCard = ({ name, image, description, github, link }) => {
   return (
     <Col lg="4" md="6" xs="12">
       <div className="card shadow mx-auto my-2">
-        <img src={image} className="card-img-top" alt={name} />
+        <a href={image} title={name} target="_blank" rel="noopener noreferrer">
+          <img src={image} className="card-img-top" alt={name} />
+        </a>
         <div className="card-body text-center">
           <h5 className="card-title text-center">{name}</h5>
           <p className="card-text">{description}</p>
