@@ -32,6 +32,21 @@ body {
   background-attachment: fixed !important;
 }
 
+/* #about-section,
+#portfolio-section,
+#contact-section {
+  height: 100vh !important;
+} */
+
+.anchor {
+  display: block;
+  height: 45px;
+  /* this is the height of your header */
+  margin-top: -45px;
+  /* this is again negative value of the height of your header */
+  visibility: hidden;
+}
+
 .badge-info {
   background-color: #292e49 !important;
   font-size: 22px;
