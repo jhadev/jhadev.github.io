@@ -5,7 +5,6 @@ import ProjectCard from "./ProjectCard";
 import ContactForm from "./ContactForm";
 import About from "./About";
 import { Animated } from "react-animated-css";
-import ScrollAnimation from "react-animate-on-scroll";
 
 class Body extends Component {
   state = {
@@ -16,16 +15,14 @@ class Body extends Component {
     return (
       <Container>
         <Animated animationIn="zoomIn">
-          <ScrollAnimation duration={0.5} animateIn="zoomIn">
-            <Row className="justify-content-center mt-5">
-              <Col md="6" xs="12">
-                <h2 id="about" className="about text-center text-light mb-3">
-                  About Me
-                </h2>
-                <About />
-              </Col>
-            </Row>
-          </ScrollAnimation>
+          <Row className="justify-content-center mt-5">
+            <Col md="6" xs="12">
+              <h2 id="about" className="about text-center text-light mb-3">
+                About Me
+              </h2>
+              <About />
+            </Col>
+          </Row>
           <Row className="mt-5">
             <Col xs="12">
               <h2
@@ -49,21 +46,16 @@ class Body extends Component {
               />
             ))}
           </Row>
-          <ScrollAnimation duration={0.5} animateIn="zoomIn">
-            <Row className="justify-content-center mt-5">
-              <Col md="6" xs="12">
-                <h2
-                  id="contact"
-                  className="contact text-center text-light mb-3 "
-                >
-                  Contact
-                </h2>
-              </Col>
-            </Row>
-            <Row className="justify-content-center">
-              <ContactForm />
-            </Row>
-          </ScrollAnimation>
+          <Row className="justify-content-center mt-5">
+            <Col md="6" xs="12">
+              <h2 id="contact" className="contact text-center text-light mb-3 ">
+                Contact
+              </h2>
+            </Col>
+          </Row>
+          <Row className="justify-content-center">
+            <ContactForm />
+          </Row>
         </Animated>
       </Container>
     );
