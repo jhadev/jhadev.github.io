@@ -40,9 +40,9 @@ body {
 
 .anchor {
   display: block;
-  height: 45px;
+  height: 56px;
   /* this is the height of your header */
-  margin-top: -45px;
+  margin-top: -56px;
   /* this is again negative value of the height of your header */
   visibility: hidden;
 }
@@ -127,4 +127,14 @@ body {
     margin-left: 25%;
     margin-right: 25%;
   }
+
+  .anchor {
+    display: block;
+    height: 216px;
+    /* this is the height of your header */
+    margin-top: -216px;
+    /* this is again negative value of the height of your header */
+    visibility: hidden;
+  }
+
 }
