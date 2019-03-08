@@ -35,16 +35,24 @@ class Navigation extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto animated zoomIn" navbar>
               <NavItem>
-                <NavLink href="#about">About</NavLink>
+                <NavLink onClick={this.toggle} href="#about">
+                  About
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#portfolio">Portfolio</NavLink>
+                <NavLink onClick={this.toggle} href="#portfolio">
+                  Portfolio
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#contact">Contact</NavLink>
+                <NavLink onClick={this.toggle} href="#contact">
+                  Contact
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#resume">Resume</NavLink>
+                <NavLink onClick={this.toggle} href="#resume">
+                  Resume
+                </NavLink>
               </NavItem>
             </Nav>
           </Collapse>
