@@ -14,7 +14,7 @@
     "description": "A base to make a soundboard for anything. Another developer can clone this project and create their own soundboard in 2 steps as everything is dynamically created. Download below and test it out with your favorite TV show or movie as a theme.",
     "github": "https://github.com/jhadev/sounds",
     "link": "https://jhadev.github.io/sounds/",
-    "tech": "HTML, CSS, JavaScript, jQuery, Lodash, Bootstrap, FontAwesome"
+    "tech": "HTML, CSS, JavaScript, jQuery, Lodash, Bootstrap, FontAwesome, Animate.css"
   },
   {
     "id": 3,
@@ -23,7 +23,7 @@
     "description": "As simple as adding the entrant's name and number of entries and hitting submit. Randomizes multiple times and displays a shuffling animation when picking a winner.",
     "github": "https://github.com/jhadev/raffle",
     "link": "https://jhadev.github.io/raffle",
-    "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, Fontawesome"
+    "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, FontAwesome"
   },
   {
     "id": 4,
@@ -50,7 +50,7 @@
     "description": "Generates lottery numbers for Pick 3, Pick 4, Cash 5, Pick, 6, Mega Millions, and Powerball. Uses an algorithm to display a tooltip of other combinations (box, wheel) of a generated number for Pick 3 or Pick 4.",
     "github": "https://github.com/jhadev/lotto",
     "link": "https://jhadev.github.io/lotto/",
-    "tech": "HTML, CSS, JavaScript, jQuery, Lodash, Bootstrap, FontAwesome"
+    "tech": "HTML, CSS, JavaScript, jQuery, Lodash, Bootstrap, FontAwesome, Animate.css"
   },
   {
     "id": 7,

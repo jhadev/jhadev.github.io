@@ -127,9 +127,9 @@ body {
   color: #f8f9fa !important;
 }
 
-.linked-in {
-  margin-left: 37%;
-  margin-right: 37%;
+#linked-in {
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .linked-size {
@@ -141,10 +141,10 @@ body {
 }
 
 @media screen and (max-width: 990px) {
-  .linked-in {
+  /* .linked-in {
     margin-left: 25%;
     margin-right: 25%;
-  }
+  } */
 
   .anchor {
     display: block;

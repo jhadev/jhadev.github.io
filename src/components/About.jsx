@@ -31,7 +31,8 @@ const About = () => {
         </a>
         <div className="linked-in">
           <a
-            className="linked-size btn btn-block btn-sm btn-outline-primary"
+            className="linked-size btn btn-sm btn-outline-primary"
+            id="linked-in"
             href="http://linkedin.com/in/josh-a-9865bb175"
             target="_blank"
             rel="noopener noreferrer"
