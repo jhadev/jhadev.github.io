@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Col, Tooltip } from "reactstrap";
+import { Col, Tooltip, Button } from "reactstrap";
 
 class ProjectCard extends Component {
   constructor(props) {
@@ -34,15 +34,11 @@ class ProjectCard extends Component {
             <img src={image} className="card-img-top" alt={name} />
           </a>
           <div className="card-body text-center">
-            <h5
-              className="card-title text-center tech-used"
-              onClick={this.toggle}
-              href="#"
-              id={this.state.id}
-            >
+            <h5 className="card-title text-center tech-used" id={this.state.id}>
               {name}
             </h5>
             <Tooltip
+              trigger="click"
               placement="top"
               isOpen={this.state.tooltipOpen}
               autohide={false}
