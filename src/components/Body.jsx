@@ -43,6 +43,7 @@ class Body extends Component {
                   github={project.github}
                   description={project.description}
                   link={project.link}
+                  tech={project.tech}
                 />
               ))}
             </Row>
