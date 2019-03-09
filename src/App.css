@@ -123,6 +123,10 @@ body {
   margin-right: 5px;
 }
 
+.link:hover {
+  color: #f8f9fa !important;
+}
+
 .linked-in {
   margin-left: 37%;
   margin-right: 37%;

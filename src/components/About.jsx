@@ -8,10 +8,18 @@ const About = () => {
         <h5 className="title2 font-italic">Fullstack Web Developer</h5>
         <p className="card-text">joshappeldev@gmail.com</p>
         <p className="card-text">
-          Coding has become a passion for me. I enjoy learning new languages and
-          building clean, responsive, and functional web apps using HTML, CSS,
-          JavaScript, jQuery, React, Express, Node.js, MySQL, MongoDB, Python,
-          and Django.
+          I have always been interested in technology. I finally decided to take
+          the plunge and immerse myself in learning the craft of Web
+          Development. I was hooked as soon as I wrote my first line of code. In
+          late 2018 I graduated from the Full Stack Coding Bootcamp at Rutgers
+          University and haven't looked back.
+        </p>
+        <p className="card-text">
+          There is something magical about opening up a code editor and watching
+          your ideas come to life. It has become a passion for me. I enjoy
+          learning new languages and building clean, responsive, and functional
+          web apps using HTML, CSS, JavaScript, jQuery, React, Express, Node.js,
+          MySQL, MongoDB, Python, and Django.
         </p>
         <a
           className="github-button"
