@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Col, Tooltip } from "reactstrap";
+import { Col, Tooltip, Button } from "reactstrap";
 
 class ProjectCard extends Component {
   constructor(props) {
@@ -34,13 +34,7 @@ class ProjectCard extends Component {
             <img src={image} className="card-img-top" alt={name} />
           </a>
           <div className="card-body text-center">
-            <h5
-              className="card-title text-center tech-used"
-              onClick={this.toggle}
-              id={this.state.id}
-            >
-              {name}
-            </h5>
+            <h5 className="card-title text-center tech-used">{name}</h5>
             <Tooltip
               trigger="hover"
               placement="top"
@@ -75,18 +69,30 @@ class ProjectCard extends Component {
                 </a>
               </div>
             )}
-            {link && (
-              <a
-                className="btn mt-1 btn-block btn-outline-primary"
-                href={link}
-                target="_blank"
-                rel="noopener noreferrer"
-                data-size="large"
-                aria-label="heroku-link"
+            <div className="mx-3">
+              <Button
+                className="my-2"
+                outline
+                color="success"
+                block
+                onClick={this.toggle}
+                id={this.state.id}
               >
-                View {name === "Sounds" ? "Demo" : "Project"}
-              </a>
-            )}
+                Technologies
+              </Button>
+              {link && (
+                <a
+                  className="btn mt-1 btn-block btn-outline-primary"
+                  href={link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-size="large"
+                  aria-label="heroku-link"
+                >
+                  View {name === "Sounds" ? "Demo" : "Project"}
+                </a>
+              )}
+            </div>
           </div>
         </div>
       </Col>
