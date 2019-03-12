@@ -105,6 +105,24 @@ body {
   color: #f8f9fa !important;
 }
 
+/* .tech-btn {
+  border-color: #292e49 !important;
+  color: #292e49 !important;
+}
+
+.tech-btn:hover {
+  background-color: #292e49 !important;
+  color: #f8f9fa !important;
+}
+
+.tech-btn:focus,
+.tech-btn:active {
+  background-color: #292e49 !important;
+  color: #f8f9fa !important;
+  outline: none !important;
+  box-shadow: none !important;
+} */
+
 #linked-in {
   padding-left: 24px;
   padding-right: 24px;
@@ -124,7 +142,8 @@ body {
     margin-left: 25%;
     margin-right: 25%;
   } */
-  .tech-btn:hover:focus {
+  .tech-btn:focus,
+  .tech-btn:active {
     background-color: transparent;
     color: #28a745;
   }
