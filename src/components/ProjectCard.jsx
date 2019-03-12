@@ -71,7 +71,7 @@ class ProjectCard extends Component {
             )}
             <div className="mx-3">
               <Button
-                className="my-2"
+                className="my-2 tech-btn"
                 outline
                 color="success"
                 block

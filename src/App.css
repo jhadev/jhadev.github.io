@@ -119,10 +119,15 @@ body {
 }
 
 @media screen and (max-width: 990px) {
+
   /* .linked-in {
     margin-left: 25%;
     margin-right: 25%;
   } */
+  .tech-btn:hover:focus {
+    background-color: transparent;
+    color: #28a745;
+  }
 
   .anchor {
     display: block;
