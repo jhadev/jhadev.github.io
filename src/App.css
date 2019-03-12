@@ -5,48 +5,32 @@ body {
   flex-direction: column;
   min-height: 100vh; */
   background: #292e49 !important;
-  background: -moz-linear-gradient(
-    top,
+  background: -moz-linear-gradient(top,
     #292e49 0%,
     #2e5fad 50%,
-    #292e49 100%
-  ) !important;
-  background: -webkit-gradient(
-    linear,
+    #292e49 100%) !important;
+  background: -webkit-gradient(linear,
     left top,
     left bottom,
     color-stop(0%, #292e49),
     color-stop(50%, #2e5fad),
-    color-stop(100%, #292e49)
-  ) !important;
-  background: -webkit-linear-gradient(
-    top,
+    color-stop(100%, #292e49)) !important;
+  background: -webkit-linear-gradient(top,
     #292e49 0%,
     #2e5fad 50%,
-    #292e49 100%
-  ) !important;
-  background: -o-linear-gradient(
-    top,
+    #292e49 100%) !important;
+  background: -o-linear-gradient(top,
     #292e49 0%,
     #2e5fad 50%,
-    #292e49 100%
-  ) !important;
+    #292e49 100%) !important;
   background: -ms-linear-gradient(top, #292e49 0%, #2e5fad 50%, #292e49 100%);
-  background: linear-gradient(
-    to bottom,
+  background: linear-gradient(to bottom,
     #292e49 0%,
     #2e5fad 50%,
-    #292e49 100%
-  ) !important;
+    #292e49 100%) !important;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#292e49', endColorstr='#292e49', GradientType=0);
   background-attachment: fixed !important;
 }
-
-/* #about-section,
-#portfolio-section,
-#contact-section {
-  height: 100vh !important;
-} */
 
 .anchor {
   display: block;
@@ -149,9 +133,7 @@ body {
   .anchor {
     display: block;
     height: 216px;
-    /* this is the height of your header */
     margin-top: -216px;
-    /* this is again negative value of the height of your header */
     visibility: hidden;
   }
 }
