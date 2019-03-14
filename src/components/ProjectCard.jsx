@@ -81,8 +81,11 @@ class ProjectCard extends Component {
                 Technologies
               </Button>
               {link && (
-                <a
-                  className="btn mt-1 btn-block btn-outline-primary"
+                <Button
+                  className="mt-1 project"
+                  outline
+                  color="primary"
+                  block
                   href={link}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -90,7 +93,7 @@ class ProjectCard extends Component {
                   aria-label="heroku-link"
                 >
                   View {name === "Sounds" ? "Demo" : "Project"}
-                </a>
+                </Button>
               )}
             </div>
           </div>
