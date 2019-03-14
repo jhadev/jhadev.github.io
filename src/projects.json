@@ -1,8 +1,9 @@
-[{
+[
+  {
     "id": 1,
     "name": "curren$ee",
     "image": "https://user-images.githubusercontent.com/42519030/49109709-68db1700-f259-11e8-8770-27a48af21584.png",
-    "description": "A budgeting app built with the MongoDB, Express, React, Node.js (MERN) stack. Worked on a team of 3 for this project. Users can login to their own accounts and enter their income and expenses. They can visualize their money flow over time with tables and multiple graphs.",
+    "description": "A budgeting app built with the MongoDB, Express, React, Node.js (MERN) stack. Worked on a team of 3 for this project. Users can login to their own accounts and enter their income and expenses, search for products on Walmart.com, and visualize their money flow over time with a table and multiple charts.",
     "github": "https://github.com/jhadev/currensee",
     "link": "https://pacific-ridge-46060.herokuapp.com/",
     "tech": "React, React-Router, Node.js, Material-UI, Prime-React, Chart.js, MongoDB, Express, Axios, Moment.js, Passport, Mongoose, Reactstrap, Concurrently, Walmart API"
@@ -20,7 +21,7 @@
     "id": 3,
     "name": "Simple Raffle",
     "image": "https://user-images.githubusercontent.com/42519030/53701452-8923f000-3dcb-11e9-8d2e-69ca8b2d2452.gif",
-    "description": "As simple as adding the entrant's name and number of entries and hitting submit. Randomizes multiple times and displays a shuffling animation when picking a winner.",
+    "description": "As simple as adding the entrant's name and number of entries and hitting submit. Allows users to save their entries to local storage and load them with ease. Randomizes multiple times and displays a shuffling animation when picking a winner.",
     "github": "https://github.com/jhadev/raffle",
     "link": "https://jhadev.github.io/raffle",
     "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, FontAwesome"
