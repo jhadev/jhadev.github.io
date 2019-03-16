@@ -6,7 +6,7 @@ class ProjectCard extends Component {
     super(props);
     const genId = Math.random()
       .toString(36)
-      .substr(2, 9);
+      .substr(2, 8);
     this.toggle = this.toggle.bind(this);
     this.state = {
       tooltipOpen: false,
