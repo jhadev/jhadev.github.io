@@ -28,6 +28,10 @@ body {
   background-attachment: fixed !important;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .anchor {
   display: block;
   height: 56px;
