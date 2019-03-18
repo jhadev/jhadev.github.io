@@ -1,5 +1,4 @@
-[
-  {
+[{
     "id": 1,
     "name": "curren$ee",
     "image": "https://user-images.githubusercontent.com/42519030/49109709-68db1700-f259-11e8-8770-27a48af21584.png",
@@ -24,7 +23,7 @@
     "description": "As simple as adding the entrant's name and number of entries and hitting submit. Allows users to save their entries to local storage and load them with ease. Randomizes multiple times and displays a shuffling animation when picking a winner.",
     "github": "https://github.com/jhadev/raffle",
     "link": "https://jhadev.github.io/raffle",
-    "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, FontAwesome"
+    "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, Lodash, Moment.js, FontAwesome"
   },
   {
     "id": 4,
