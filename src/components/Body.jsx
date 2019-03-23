@@ -33,7 +33,7 @@ class Body extends Component {
                 </h2>
               </Col>
             </Row>
-            <Row>
+            <Row className="justify-content-center">
               {this.state.projects.map(project => (
                 <ProjectCard
                   key={project.id}

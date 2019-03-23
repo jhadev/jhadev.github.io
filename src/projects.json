@@ -1,4 +1,5 @@
-[{
+[
+  {
     "id": 1,
     "name": "curren$ee",
     "image": "https://user-images.githubusercontent.com/42519030/49109709-68db1700-f259-11e8-8770-27a48af21584.png",
@@ -72,6 +73,15 @@
   },
   {
     "id": 9,
+    "name": "Firebase Live Chat",
+    "image": "https://user-images.githubusercontent.com/42519030/54869570-f4c8ff80-4d70-11e9-8d2f-937c2c38b565.jpg",
+    "description": "A live chat app. Uses Google OAuth for user authentication and Google Firebase to allow messages to be sent, received, and displayed on the page in real time. Users can post image, video, and audio urls and they will display content inline.",
+    "github": "https://github.com/jhadev/firebase-live-chat",
+    "link": "https://jhadev.github.io/firebase-live-chat/",
+    "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, Firebase, Google OAuth"
+  },
+  {
+    "id": 10,
     "name": "Perfecto Importers (WIP)",
     "image": "https://user-images.githubusercontent.com/42519030/53740389-0f8b1100-3e62-11e9-904d-045248045551.jpg",
     "description": "A front-end React app built for a wine importer. End product will allow potential customers and wine buyers to learn about the company and their wine portfolio, complete with a faux cart system (for legal reasons) to calculate costs of a potential order with automated quantity discounts.",
