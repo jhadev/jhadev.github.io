@@ -75,15 +75,24 @@
     "id": 9,
     "name": "Firebase Live Chat",
     "image": "https://user-images.githubusercontent.com/42519030/54869570-f4c8ff80-4d70-11e9-8d2f-937c2c38b565.jpg",
-    "description": "A live chat app. Uses Google OAuth for user authentication and Google Firebase to allow messages to be sent, received, and displayed on the page in real time. Users can post image, video, and audio urls and they will display content inline.",
+    "description": "A live chat app. Uses Google OAuth for user authentication and Google Firebase to allow messages to be sent, received, and displayed on the page in real time. Users can upload local images and video with Cloudinary. All posted image, video, and audio urls will display their content inline.",
     "github": "https://github.com/jhadev/firebase-live-chat",
     "link": "https://jhadev.github.io/firebase-live-chat/",
-    "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, Firebase, Google OAuth"
+    "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, Moment.js, Cloudinary API, Firebase, Google OAuth"
   },
   {
     "id": 10,
+    "name": "Quizzes",
+    "image": "https://user-images.githubusercontent.com/42519030/55992168-eab46580-5c79-11e9-9c6d-8f0f6b3b242c.jpg",
+    "description": "A set of timed quizzes that can easily be adapted and combined by changing a few lines of code. I created this to get a better understanding of Object Oriented Programming.",
+    "github": "https://github.com/jhadev/object-oriented-quiz",
+    "link": "https://jhadev.github.io/object-oriented-quiz/",
+    "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, Lodash"
+  },
+  {
+    "id": 11,
     "name": "Perfecto Importers (WIP)",
-    "image": "https://user-images.githubusercontent.com/42519030/53740389-0f8b1100-3e62-11e9-904d-045248045551.jpg",
+    "image": "https://user-images.githubusercontent.com/42519030/55992517-c016dc80-5c7a-11e9-87f7-f840d595bb68.jpg",
     "description": "A front-end React app built for a wine importer. End product will allow potential customers and wine buyers to learn about the company and their wine portfolio, complete with a faux cart system (for legal reasons) to calculate costs of a potential order with automated quantity discounts.",
     "github": "https://github.com/jhadev/perfecto-importers",
     "link": null,
