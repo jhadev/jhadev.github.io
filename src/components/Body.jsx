@@ -28,7 +28,7 @@ class Body extends Component {
           <section id="portfolio-section">
             <Row className="mt-5">
               <Col xs="12">
-                <h2 className=" portfolio text-center text-light mb-3">
+                <h2 className="portfolio text-center text-light mb-3">
                   Portfolio
                 </h2>
               </Col>
@@ -50,7 +50,7 @@ class Body extends Component {
           </section>
           <span className="anchor" id="contact" />
           <section id="contact-section">
-            <Row className="justify-content-center mt-4">
+            <Row className="justify-content-center mt-4 contact-row">
               <Col md="6" xs="12">
                 <h2 className="contact text-center text-light mb-3">Contact</h2>
               </Col>
