@@ -3,7 +3,7 @@ import React from "react";
 const ContactForm = () => {
   return (
     <div className="col-md-6 col-12">
-      <div className="card shadow mb-5">
+      <div className="card shadow mt-4 mb-5">
         <div className="card-header text-center">Send Me a Message</div>
         <div className="card-body">
           <form

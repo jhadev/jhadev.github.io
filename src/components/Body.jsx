@@ -19,7 +19,7 @@ class Body extends Component {
           <section id="about-section">
             <Row className="justify-content-center mt-5">
               <Col md="8" xs="12">
-                <h2 className="about text-center text-light mb-3">About Me</h2>
+                <h2 className="about text-center text-light mb-4">About Me</h2>
                 <About />
               </Col>
             </Row>
@@ -50,11 +50,9 @@ class Body extends Component {
           </section>
           <span className="anchor" id="contact" />
           <section id="contact-section">
-            <Row className="justify-content-center mt-5">
+            <Row className="justify-content-center mt-4">
               <Col md="6" xs="12">
-                <h2 className="contact text-center text-light mb-3 ">
-                  Contact
-                </h2>
+                <h2 className="contact text-center text-light mb-3">Contact</h2>
               </Col>
             </Row>
             <Row className="justify-content-center">
