@@ -24,7 +24,7 @@ class ProjectCard extends Component {
     const { name, image, description, github, link, tech } = this.props;
     return (
       <Col lg="4" md="6" xs="12">
-        <div className="card shadow mx-auto my-4 hvr-grow">
+        <div className="card project-card shadow mx-auto my-4 hvr-grow">
           <a
             href={image}
             title={name}
