@@ -3,10 +3,10 @@
     "id": 1,
     "name": "curren$ee",
     "image": "https://user-images.githubusercontent.com/42519030/49109709-68db1700-f259-11e8-8770-27a48af21584.png",
-    "description": "A budgeting app built with the MongoDB, Express, React, Node.js (MERN) stack. Worked on a team of 3 for this project. Users can login to their own accounts and enter their income and expenses, search for products on Walmart.com, and visualize their money flow over time with a table and multiple charts.",
+    "description": "A budgeting app built with the MongoDB, Express, React, Node.js (MERN) stack. Worked on a team of 3 for this project. Users can login to their own accounts and enter their income and expenses, search for products on Walmart.com, view stock and crypto chart, and visualize their money flow over time with a table and multiple charts.",
     "github": "https://github.com/jhadev/currensee",
     "link": "https://pacific-ridge-46060.herokuapp.com/",
-    "tech": "React, React-Router, Node.js, Material-UI, Prime-React, Chart.js, MongoDB, Express, Axios, Moment.js, Passport, Mongoose, Reactstrap, Concurrently, Walmart API"
+    "tech": "React, React-Router, Node.js, Material-UI, Prime-React, Chart.js, MongoDB, Express, Axios, Moment.js, Passport, Mongoose, Reactstrap, Concurrently, Walmart API, react-tradingview"
   },
   {
     "id": 2,
