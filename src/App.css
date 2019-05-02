@@ -136,6 +136,10 @@ html {
   color: #f8f9fa !important;
 }
 
+.svg-img {
+  filter: invert(18%) sepia(14%) saturate(1403%) hue-rotate(193deg) brightness(94%) contrast(98%)
+}
+
 /* .tech-btn {
   border-color: #292e49 !important;
   color: #292e49 !important;
