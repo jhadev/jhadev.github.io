@@ -8,7 +8,9 @@ import { Animated } from "react-animated-css";
 
 class Body extends Component {
   state = {
-    projects
+    projects,
+    tech: "",
+    selectedProjects: []
   };
 
   render() {

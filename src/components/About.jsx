@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { ReactComponent as HTML } from "../images/html5.svg";
 import { ReactComponent as CSS } from "../images/css3.svg";
 import { ReactComponent as JS } from "../images/javascript.svg";
@@ -27,6 +27,9 @@ const About = () => {
     <Django name="Django" id="django" />,
     <Git name="Git" id="git" />
   ];
+
+  const [icons, updateImages] = useState(images);
+
   return (
     <div className="card shadow mx-auto mt-4">
       <div className="card-body text-center">
@@ -47,7 +50,7 @@ const About = () => {
           web apps using...
         </p>
         <div className="row mb-3">
-          {images.map((image, index) => (
+          {icons.map((image, index) => (
             <div className="col-lg-2 col-md-3 col-4" key={index}>
               <div className="img-fluid svg-img hvr-grow p-2">{image}</div>
               <div className="my-1 svgNames">{image.props.name}</div>

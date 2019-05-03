@@ -28,6 +28,16 @@ body {
   background-attachment: fixed !important;
 }
 
+@keyframes react {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -47,35 +57,42 @@ svg {
 }
 
 #node {
-  filter: invert(23%) sepia(39%) saturate(760%) hue-rotate(86deg) brightness(99%) contrast(86%)
+  filter: invert(23%) sepia(39%) saturate(760%) hue-rotate(86deg) brightness(99%) contrast(86%);
 }
 
 #mongo {
-  filter: invert(51%) sepia(28%) saturate(898%) hue-rotate(55deg) brightness(94%) contrast(91%)
+  filter: invert(51%) sepia(28%) saturate(898%) hue-rotate(55deg) brightness(94%) contrast(91%);
 }
 
 #react {
-  filter: invert(70%) sepia(50%) saturate(3292%) hue-rotate(145deg) brightness(100%) contrast(107%)
+  filter: invert(70%) sepia(50%) saturate(3292%) hue-rotate(145deg) brightness(100%) contrast(107%);
+  animation: react infinite 20s linear;
 }
 
+/* #react:hover,
+#node:hover,
+#python:hover {
+  animation: react infinite 20s linear;
+} */
+
 #firebase {
-  filter: invert(62%) sepia(19%) saturate(4963%) hue-rotate(1deg) brightness(100%) contrast(103%)
+  filter: invert(62%) sepia(19%) saturate(4963%) hue-rotate(1deg) brightness(100%) contrast(103%);
 }
 
 #js {
-  filter: invert(83%) sepia(92%) saturate(7267%) hue-rotate(338deg) brightness(101%) contrast(94%)
+  filter: invert(83%) sepia(92%) saturate(7267%) hue-rotate(338deg) brightness(101%) contrast(94%);
 }
 
 #jquery {
-  filter: invert(22%) sepia(98%) saturate(5891%) hue-rotate(193deg) brightness(93%) contrast(94%)
+  filter: invert(22%) sepia(98%) saturate(5891%) hue-rotate(193deg) brightness(93%) contrast(94%);
 }
 
 #mysql {
-  filter: invert(22%) sepia(66%) saturate(2991%) hue-rotate(172deg) brightness(98%) contrast(101%)
+  filter: invert(22%) sepia(66%) saturate(2991%) hue-rotate(172deg) brightness(98%) contrast(101%);
 }
 
 #python {
-  filter: invert(42%) sepia(0%) saturate(1972%) hue-rotate(168deg) brightness(87%) contrast(80%)
+  filter: invert(42%) sepia(0%) saturate(1972%) hue-rotate(168deg) brightness(87%) contrast(80%);
 }
 
 #django {
@@ -83,11 +100,11 @@ svg {
 }
 
 #git {
-  filter: invert(0%) sepia(1%) saturate(4159%) hue-rotate(325deg) brightness(104%) contrast(60%)
+  filter: invert(0%) sepia(1%) saturate(4159%) hue-rotate(325deg) brightness(104%) contrast(60%);
 }
 
 #css {
-  filter: invert(24%) sepia(90%) saturate(2241%) hue-rotate(223deg) brightness(88%) contrast(103%)
+  filter: invert(24%) sepia(90%) saturate(2241%) hue-rotate(223deg) brightness(88%) contrast(103%);
 }
 
 .hvr-grow {
