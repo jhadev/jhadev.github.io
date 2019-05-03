@@ -18,7 +18,7 @@ class Body extends Component {
           <span className="anchor" id="about" />
           <section id="about-section">
             <Row className="justify-content-center mt-5">
-              <Col md="8" xs="12">
+              <Col md="10" xs="12">
                 <h2 className="about text-center text-light mb-4">About Me</h2>
                 <About />
               </Col>

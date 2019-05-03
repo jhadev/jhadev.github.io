@@ -14,18 +14,18 @@ import { ReactComponent as Git } from "../images/git.svg";
 
 const About = () => {
   const images = [
-    <HTML />,
-    <CSS />,
-    <JS />,
-    <JQuery />,
-    <ReactImage />,
-    <MySQL />,
-    <Mongo />,
-    <Firebase />,
-    <Node />,
-    <Python />,
-    <Django />,
-    <Git />
+    <HTML name="HTML" id="html" />,
+    <CSS name="CSS" id="css" />,
+    <JS name="JavaScript" id="js" />,
+    <JQuery name="jQuery" id="jquery" />,
+    <ReactImage name="React" id="react" />,
+    <MySQL name="MySQL" id="mysql" />,
+    <Mongo name="MongoDB" id="mongo" />,
+    <Firebase name="Firebase" id="firebase" />,
+    <Node name="Node.js" id="node" />,
+    <Python name="Python" id="python" />,
+    <Django name="Django" id="django" />,
+    <Git name="Git" id="git" />
   ];
   return (
     <div className="card shadow mx-auto mt-4">
@@ -33,24 +33,24 @@ const About = () => {
         <h4 className="title">Josh Appel</h4>
         <h5 className="title2 font-italic">Fullstack Web Developer</h5>
         <p className="card-text">joshappeldev@gmail.com</p>
-        <p className="card-text p-2">
+        <p className="card-text px-4 py-2">
           I have always been interested in technology. I finally decided to take
           the plunge and immerse myself in learning the craft of Web
           Development. I was hooked as soon as I wrote my first line of code. In
           late 2018 I graduated from the Full Stack Coding Bootcamp at Rutgers
           University and haven't looked back.
         </p>
-        <p className="card-text p-2">
+        <p className="card-text px-4 py-2">
           There is something magical about opening up a code editor and watching
           your ideas come to life. It has become a passion for me. I enjoy
           learning new languages and building clean, responsive, and functional
-          web apps using HTML, CSS, JavaScript, jQuery, React, Express, Node.js,
-          MySQL, MongoDB, Firebase, Python, and Django.
+          web apps using...
         </p>
         <div className="row mb-3">
           {images.map((image, index) => (
-            <div className="col-md-2 col-3" key={index}>
-              <div className="img-fluid svg-img p-2">{image}</div>
+            <div className="col-lg-2 col-md-3 col-4" key={index}>
+              <div className="img-fluid svg-img hvr-grow p-2">{image}</div>
+              <div className="my-1 svgNames">{image.props.name}</div>
             </div>
           ))}
         </div>

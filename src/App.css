@@ -32,9 +32,63 @@ html {
   scroll-behavior: smooth;
 }
 
-/* p {
-  font-family: 'Open Sans', sans-serif;
-} */
+svg {
+  width: 75%;
+  height: 75%;
+}
+
+.svgNames {
+  font-size: 0.9rem;
+}
+
+
+#html {
+  filter: invert(36%) sepia(66%) saturate(1638%) hue-rotate(346deg) brightness(92%) contrast(92%);
+}
+
+#node {
+  filter: invert(23%) sepia(39%) saturate(760%) hue-rotate(86deg) brightness(99%) contrast(86%)
+}
+
+#mongo {
+  filter: invert(51%) sepia(28%) saturate(898%) hue-rotate(55deg) brightness(94%) contrast(91%)
+}
+
+#react {
+  filter: invert(70%) sepia(50%) saturate(3292%) hue-rotate(145deg) brightness(100%) contrast(107%)
+}
+
+#firebase {
+  filter: invert(62%) sepia(19%) saturate(4963%) hue-rotate(1deg) brightness(100%) contrast(103%)
+}
+
+#js {
+  filter: invert(83%) sepia(92%) saturate(7267%) hue-rotate(338deg) brightness(101%) contrast(94%)
+}
+
+#jquery {
+  filter: invert(22%) sepia(98%) saturate(5891%) hue-rotate(193deg) brightness(93%) contrast(94%)
+}
+
+#mysql {
+  filter: invert(22%) sepia(66%) saturate(2991%) hue-rotate(172deg) brightness(98%) contrast(101%)
+}
+
+#python {
+  filter: invert(42%) sepia(0%) saturate(1972%) hue-rotate(168deg) brightness(87%) contrast(80%)
+}
+
+#django {
+  filter: invert(12%) sepia(24%) saturate(1270%) hue-rotate(106deg) brightness(102%) contrast(96%);
+}
+
+#git {
+  filter: invert(0%) sepia(1%) saturate(4159%) hue-rotate(325deg) brightness(104%) contrast(60%)
+}
+
+#css {
+  filter: invert(24%) sepia(90%) saturate(2241%) hue-rotate(223deg) brightness(88%) contrast(103%)
+}
 
 .hvr-grow {
   display: inline-block;
@@ -136,9 +190,9 @@ html {
   color: #f8f9fa !important;
 }
 
-.svg-img {
+/* .svg-img {
   filter: invert(18%) sepia(14%) saturate(1403%) hue-rotate(193deg) brightness(94%) contrast(98%)
-}
+} */
 
 /* .tech-btn {
   border-color: #292e49 !important;
@@ -189,6 +243,11 @@ html {
     margin-top: -216px;
     visibility: hidden;
   }
+
+  .svgNames {
+    font-size: 0.8rem;
+  }
+
 }
 
 @media screen and (max-width: 570px) {
@@ -207,5 +266,9 @@ html {
 
   .contact-card {
     margin-top: 0.6rem !important;
+  }
+
+  .svgNames {
+    font-size: 0.65rem;
   }
 }

@@ -1,9 +1,8 @@
-[
-  {
+[{
     "id": 1,
     "name": "curren$ee",
     "image": "https://user-images.githubusercontent.com/42519030/49109709-68db1700-f259-11e8-8770-27a48af21584.png",
-    "description": "A budgeting app built with the MongoDB, Express, React, Node.js (MERN) stack. Worked on a team of 3 for this project. Users can login to their own accounts and enter their income and expenses, search for products on Walmart.com, view stock and crypto chart, and visualize their money flow over time with a table and multiple charts.",
+    "description": "A budgeting app built with the MongoDB, Express, React, Node.js (MERN) stack. Worked on a team of 3 for this project. Users can login to their own accounts and enter their income and expenses, search for products on Walmart.com and add them to their budget, view stock and crypto charts, and visualize their money flow over time with a table and multiple charts.",
     "github": "https://github.com/jhadev/currensee",
     "link": "https://pacific-ridge-46060.herokuapp.com/",
     "tech": "React, React-Router, Node.js, Material-UI, Prime-React, Chart.js, MongoDB, Express, Axios, Moment.js, Passport, Mongoose, Reactstrap, Concurrently, Walmart API, react-tradingview"
@@ -15,7 +14,7 @@
     "description": "A base to make a soundboard for anything. Another developer can clone this project and create their own soundboard in 2 steps as everything is dynamically created. Download below and test it out with your favorite TV show or movie as a theme.",
     "github": "https://github.com/jhadev/sounds",
     "link": "https://jhadev.github.io/sounds/",
-    "tech": "HTML, CSS, JavaScript, jQuery, Lodash, Bootstrap, FontAwesome, Animate.css"
+    "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, FontAwesome, Animate.css"
   },
   {
     "id": 3,
