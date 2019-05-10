@@ -55,7 +55,7 @@
   {
     "id": 7,
     "name": "Firebase Live Chat",
-    "image": "https://user-images.githubusercontent.com/42519030/54869570-f4c8ff80-4d70-11e9-8d2f-937c2c38b565.jpg",
+    "image": "https://user-images.githubusercontent.com/42519030/57556531-50614380-7345-11e9-9ffa-e8a8f06c16a2.jpg",
     "description": "A live chat app. Uses Google OAuth for user authentication and Google Firebase to allow messages to be sent, received, and displayed on the page in real time. Users can upload local images and video with Cloudinary. All posted image, video, and audio urls will display their content inline.",
     "github": "https://github.com/jhadev/firebase-live-chat",
     "link": "https://jhadev.github.io/firebase-live-chat/",
