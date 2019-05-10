@@ -1,7 +1,7 @@
 [{
     "id": 1,
     "name": "curren$ee",
-    "image": "https://user-images.githubusercontent.com/42519030/49109709-68db1700-f259-11e8-8770-27a48af21584.png",
+    "image": "https://user-images.githubusercontent.com/42519030/57336512-2cf38a00-70f4-11e9-9e00-909f9d0670fe.gif",
     "description": "A budgeting app built with the MongoDB, Express, React, Node.js (MERN) stack. Worked on a team of 3 for this project. Users can login to their own accounts and enter their income and expenses, search for products on Walmart.com and add them to their budget, view stock and crypto charts, and visualize their money flow over time with a table and multiple charts.",
     "github": "https://github.com/jhadev/currensee",
     "link": "https://pacific-ridge-46060.herokuapp.com/",
@@ -36,15 +36,6 @@
   },
   {
     "id": 5,
-    "name": "Gif Me!",
-    "image": "https://user-images.githubusercontent.com/42519030/50379137-e6066b80-060e-11e9-9d00-de2afd24080f.PNG",
-    "description": "An app to search and view GIF images using the Giphy API. Uses Bootstrap, jQuery, and CSS animations. Add your search term to the top and pull the top 10 gifs for that search from giphy.com",
-    "github": "https://github.com/jhadev/gif-me",
-    "link": "https://jhadev.github.io/gif-me/",
-    "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, Google Fonts, Giphy API"
-  },
-  {
-    "id": 6,
     "name": "Lottery Generator",
     "image": "https://user-images.githubusercontent.com/42519030/53699295-984b7380-3db4-11e9-8c03-7e6b1abfbb89.jpg",
     "description": "Generates lottery numbers for Pick 3, Pick 4, Cash 5, Pick, 6, Mega Millions, and Powerball. Uses an algorithm to display a tooltip of other combinations (box, wheel) of a generated number for Pick 3 or Pick 4.",
@@ -53,25 +44,16 @@
     "tech": "HTML, CSS, JavaScript, jQuery, Lodash, Bootstrap, FontAwesome, Animate.css"
   },
   {
-    "id": 7,
-    "name": "React Memory Game",
-    "image": "https://user-images.githubusercontent.com/42519030/53745412-f6d42880-3e6c-11e9-9270-2b952f5fdcb4.jpg",
-    "description": "A memory game themed for Breaking Bad. Built with React using Reactstrap. Don't pick the same character twice.",
-    "github": "https://github.com/jhadev/breaking-react-game/tree/code",
-    "link": "https://jhadev.github.io/breaking-react-game/",
-    "tech": "React, Reactstrap"
-  },
-  {
-    "id": 8,
+    "id": 6,
     "name": "LIRI",
-    "image": "https://github.com/jhadev/liri-hw/raw/master/images/spotifyThis.PNG",
+    "image": "https://user-images.githubusercontent.com/42519030/57555862-6ff76c80-7343-11e9-991b-1608b9f28a97.png",
     "description": "A Node.js CLI app that uses the OMDB, Spotify, and Bands In Town APIs to pull info about movies, songs, artists, and upcoming concerts.",
     "github": "https://github.com/jhadev/liri",
     "link": null,
     "tech": "Node.js, node-spotify-api, Inquirer, Request, Moment.js"
   },
   {
-    "id": 9,
+    "id": 7,
     "name": "Firebase Live Chat",
     "image": "https://user-images.githubusercontent.com/42519030/54869570-f4c8ff80-4d70-11e9-8d2f-937c2c38b565.jpg",
     "description": "A live chat app. Uses Google OAuth for user authentication and Google Firebase to allow messages to be sent, received, and displayed on the page in real time. Users can upload local images and video with Cloudinary. All posted image, video, and audio urls will display their content inline.",
@@ -80,7 +62,7 @@
     "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, Moment.js, Cloudinary API, Firebase, Google OAuth"
   },
   {
-    "id": 10,
+    "id": 8,
     "name": "Quizzes",
     "image": "https://user-images.githubusercontent.com/42519030/55992168-eab46580-5c79-11e9-9c6d-8f0f6b3b242c.jpg",
     "description": "A set of timed quizzes that can easily be adapted and combined by changing a few lines of code. I created this to get a better understanding of Object Oriented Programming.",
@@ -89,9 +71,9 @@
     "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, Lodash"
   },
   {
-    "id": 11,
+    "id": 9,
     "name": "Perfecto Importers (WIP)",
-    "image": "https://user-images.githubusercontent.com/42519030/55992517-c016dc80-5c7a-11e9-87f7-f840d595bb68.jpg",
+    "image": "https://user-images.githubusercontent.com/42519030/57555765-2444c300-7343-11e9-839c-7ad23b6dc85e.jpg",
     "description": "A front-end React app built for a wine importer. End product will allow potential customers and wine buyers to learn about the company and their wine portfolio, complete with a faux cart system (for legal reasons) to calculate costs of a potential order with automated quantity discounts.",
     "github": "https://github.com/jhadev/perfecto-importers",
     "link": null,

@@ -79,7 +79,7 @@ svg {
 
 #react {
   filter: invert(70%) sepia(50%) saturate(3292%) hue-rotate(145deg) brightness(100%) contrast(107%);
-  animation: react infinite 20s linear;
+  animation: test infinite 20s linear;
 }
 
 /* #react:hover,
@@ -143,8 +143,12 @@ svg {
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.card-text {
+  font-size: 0.95rem;
 }
 
 .anchor {

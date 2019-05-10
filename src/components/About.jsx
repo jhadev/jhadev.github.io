@@ -1,16 +1,16 @@
-import React, { useState } from "react";
-import { ReactComponent as HTML } from "../images/html5.svg";
-import { ReactComponent as CSS } from "../images/css3.svg";
-import { ReactComponent as JS } from "../images/javascript.svg";
-import { ReactComponent as JQuery } from "../images/jquery.svg";
-import { ReactComponent as ReactImage } from "../images/react.svg";
-import { ReactComponent as MySQL } from "../images/mysql.svg";
-import { ReactComponent as Mongo } from "../images/mongodb.svg";
-import { ReactComponent as Firebase } from "../images/firebase.svg";
-import { ReactComponent as Node } from "../images/node-dot-js.svg";
-import { ReactComponent as Python } from "../images/python.svg";
-import { ReactComponent as Django } from "../images/django.svg";
-import { ReactComponent as Git } from "../images/git.svg";
+import React, { useState } from 'react';
+import { ReactComponent as HTML } from '../images/html5.svg';
+import { ReactComponent as CSS } from '../images/css3.svg';
+import { ReactComponent as JS } from '../images/javascript.svg';
+import { ReactComponent as JQuery } from '../images/jquery.svg';
+import { ReactComponent as ReactImage } from '../images/react.svg';
+import { ReactComponent as MySQL } from '../images/mysql.svg';
+import { ReactComponent as Mongo } from '../images/mongodb.svg';
+import { ReactComponent as Firebase } from '../images/firebase.svg';
+import { ReactComponent as Node } from '../images/node-dot-js.svg';
+import { ReactComponent as Python } from '../images/python.svg';
+import { ReactComponent as Django } from '../images/django.svg';
+import { ReactComponent as Git } from '../images/git.svg';
 
 const About = () => {
   const images = [
