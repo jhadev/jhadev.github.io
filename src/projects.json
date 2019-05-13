@@ -9,8 +9,8 @@
   },
   {
     "id": 2,
-    "name": "Sounds",
-    "image": "https://user-images.githubusercontent.com/42519030/53685086-1a1f9c00-3ce4-11e9-9dc8-de5e54786efc.PNG",
+    "name": "Sounds (Front-End)",
+    "image": "https://user-images.githubusercontent.com/42519030/57633012-ceedf900-7570-11e9-90d2-152fc3cd8123.jpg",
     "description": "A base to make a soundboard for anything. Another developer can clone this project and create their own soundboard in 2 steps as everything is dynamically created. Download below and test it out with your favorite TV show or movie as a theme.",
     "github": "https://github.com/jhadev/sounds",
     "link": "https://jhadev.github.io/sounds/",
@@ -18,6 +18,15 @@
   },
   {
     "id": 3,
+    "name": "Sounds (Full-Stack)",
+    "image": "https://user-images.githubusercontent.com/42519030/57633013-ceedf900-7570-11e9-893f-fef41cf84e21.jpg",
+    "description": "Building on top of the front end version, this version adds a backend using the Django REST Framework and SQLite to manage data for the soundboard. Potentially expandable by creating new Django apps for different themes.",
+    "github": "https://github.com/jhadev/py-sounds",
+    "link": "https://pacific-brushlands-87351.herokuapp.com/",
+    "tech": "Python, Django, Django REST Framework, WhiteNoise, Gunicorn, SQLite, HTML, CSS, JavaScript, jQuery, Bootstrap, FontAwesome, Animate.css"
+  },
+  {
+    "id": 4,
     "name": "Simple Raffle",
     "image": "https://user-images.githubusercontent.com/42519030/53701452-8923f000-3dcb-11e9-8d2e-69ca8b2d2452.gif",
     "description": "As simple as adding the entrant's name and number of entries and hitting submit. Allows users to save their entries to local storage and load them with ease. Randomizes multiple times and displays a shuffling animation when picking a winner.",
@@ -26,7 +35,7 @@
     "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, Lodash, Moment.js, FontAwesome"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Reddit TIL Scraper",
     "image": "https://user-images.githubusercontent.com/42519030/50379099-6cba4900-060d-11e9-98f2-8509e2e71a91.PNG",
     "description": "A scraper for the Reddit TodayILearned subreddit. Allows users to pull latest articles from the subreddit in chronological order and save notes for articles in the Mongo database.",
@@ -35,7 +44,7 @@
     "tech": "Handlebars, jQuery, Moment.js, Axios, Cheerio, Node.js, Express, MongoDB, Mongoose"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Lottery Generator",
     "image": "https://user-images.githubusercontent.com/42519030/53699295-984b7380-3db4-11e9-8c03-7e6b1abfbb89.jpg",
     "description": "Generates lottery numbers for Pick 3, Pick 4, Cash 5, Pick, 6, Mega Millions, and Powerball. Uses an algorithm to display a tooltip of other combinations (box, wheel) of a generated number for Pick 3 or Pick 4.",
@@ -44,7 +53,7 @@
     "tech": "HTML, CSS, JavaScript, jQuery, Lodash, Bootstrap, FontAwesome, Animate.css"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "LIRI",
     "image": "https://user-images.githubusercontent.com/42519030/57555862-6ff76c80-7343-11e9-991b-1608b9f28a97.png",
     "description": "A Node.js CLI app that uses the OMDB, Spotify, and Bands In Town APIs to pull info about movies, songs, artists, and upcoming concerts.",
@@ -53,7 +62,7 @@
     "tech": "Node.js, node-spotify-api, Inquirer, Request, Moment.js"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Firebase Live Chat",
     "image": "https://user-images.githubusercontent.com/42519030/57556531-50614380-7345-11e9-9ffa-e8a8f06c16a2.jpg",
     "description": "A live chat app. Uses Google OAuth for user authentication and Google Firebase to allow messages to be sent, received, and displayed on the page in real time. Users can upload local images and video with Cloudinary. All posted image, video, and audio urls will display their content inline.",
@@ -62,7 +71,7 @@
     "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, Moment.js, Cloudinary API, Firebase, Google OAuth"
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Quizzes",
     "image": "https://user-images.githubusercontent.com/42519030/55992168-eab46580-5c79-11e9-9c6d-8f0f6b3b242c.jpg",
     "description": "A set of timed quizzes that can easily be adapted and combined by changing a few lines of code. I created this to get a better understanding of Object Oriented Programming.",
@@ -71,7 +80,7 @@
     "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, Lodash"
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "Perfecto Importers (WIP)",
     "image": "https://user-images.githubusercontent.com/42519030/57555765-2444c300-7343-11e9-839c-7ad23b6dc85e.jpg",
     "description": "A front-end React app built for a wine importer. End product will allow potential customers and wine buyers to learn about the company and their wine portfolio, complete with a faux cart system (for legal reasons) to calculate costs of a potential order with automated quantity discounts.",

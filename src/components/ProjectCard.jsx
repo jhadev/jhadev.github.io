@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Col, Tooltip, Button } from "reactstrap";
+import React, { Component } from 'react';
+import { Col, Tooltip, Button } from 'reactstrap';
 
 class ProjectCard extends Component {
   constructor(props) {
@@ -56,7 +56,7 @@ class ProjectCard extends Component {
                 {name} on Github
               </a>
             </div>
-            {name === "Sounds" && (
+            {name === 'Sounds (Front-End)' && (
               <div>
                 <a
                   className="github-button"
@@ -92,7 +92,7 @@ class ProjectCard extends Component {
                   data-size="large"
                   aria-label="heroku-link"
                 >
-                  View {name === "Sounds" ? "Demo" : "Project"}
+                  View {name === 'Sounds' ? 'Demo' : 'Project'}
                 </Button>
               )}
             </div>
