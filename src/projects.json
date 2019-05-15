@@ -1,4 +1,5 @@
-[{
+[
+  {
     "id": 1,
     "name": "curren$ee",
     "image": "https://user-images.githubusercontent.com/42519030/57336512-2cf38a00-70f4-11e9-9e00-909f9d0670fe.gif",
@@ -9,7 +10,7 @@
   },
   {
     "id": 2,
-    "name": "Sounds (Front-End)",
+    "name": "Sounds (Front End)",
     "image": "https://user-images.githubusercontent.com/42519030/57633012-ceedf900-7570-11e9-90d2-152fc3cd8123.jpg",
     "description": "A base to make a soundboard for anything. Another developer can clone this project and create their own soundboard in 2 steps as everything is dynamically created. Download below and test it out with your favorite TV show or movie as a theme.",
     "github": "https://github.com/jhadev/sounds",
@@ -18,12 +19,12 @@
   },
   {
     "id": 3,
-    "name": "Sounds (Full-Stack)",
-    "image": "https://user-images.githubusercontent.com/42519030/57633013-ceedf900-7570-11e9-893f-fef41cf84e21.jpg",
-    "description": "Building on top of the front end version, this version adds a backend using the Django REST Framework and SQLite to manage data for the soundboard. Potentially expandable by creating new Django apps for different themes.",
+    "name": "Sounds (Full Stack)",
+    "image": "https://user-images.githubusercontent.com/42519030/57780679-bc053100-76f6-11e9-9445-5ec8da2009ba.jpg",
+    "description": "Building on top of the front end version, this version adds a backend using the Django REST Framework and PostgreSQL to manage data for the soundboard. Easily expandable by creating new Django apps for different themes.",
     "github": "https://github.com/jhadev/py-sounds",
     "link": "https://pacific-brushlands-87351.herokuapp.com/",
-    "tech": "Python, Django, Django REST Framework, WhiteNoise, Gunicorn, SQLite, HTML, CSS, JavaScript, jQuery, Bootstrap, FontAwesome, Animate.css"
+    "tech": "Python, Django, Django REST Framework, WhiteNoise, Gunicorn, PostgreSQL, HTML, CSS, JavaScript, jQuery, Bootstrap, FontAwesome, Animate.css"
   },
   {
     "id": 4,

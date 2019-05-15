@@ -56,7 +56,7 @@ class ProjectCard extends Component {
                 {name} on Github
               </a>
             </div>
-            {name === 'Sounds (Front-End)' && (
+            {name === 'Sounds (Front End)' && (
               <div>
                 <a
                   className="github-button"
