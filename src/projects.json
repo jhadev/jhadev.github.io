@@ -21,7 +21,7 @@
     "id": 3,
     "name": "Sounds (Full Stack)",
     "image": "https://user-images.githubusercontent.com/42519030/57780679-bc053100-76f6-11e9-9445-5ec8da2009ba.jpg",
-    "description": "Building on top of the front end version, this version adds a backend using the Django REST Framework and PostgreSQL to manage data for the soundboard. Easily expandable by creating new Django apps for different themes.",
+    "description": "Building on top of the front end version, this version adds a backend using the Django REST Framework and PostgreSQL to manage data for the soundboards. Easily expandable by creating new Django apps for different themes.",
     "github": "https://github.com/jhadev/py-sounds",
     "link": "https://pacific-brushlands-87351.herokuapp.com/",
     "tech": "Python, Django, Django REST Framework, WhiteNoise, Gunicorn, PostgreSQL, HTML, CSS, JavaScript, jQuery, Bootstrap, FontAwesome, Animate.css"
