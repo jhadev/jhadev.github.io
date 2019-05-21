@@ -21,7 +21,7 @@ class ProjectCard extends Component {
   }
 
   render() {
-    const { name, image, description, github, link, tech } = this.props;
+    const { name, image, description, github, alt, link, tech } = this.props;
     return (
       <Col lg="4" md="6" xs="12">
         <div className="card project-card shadow mx-auto my-4 hvr-grow">
@@ -53,9 +53,21 @@ class ProjectCard extends Component {
                 data-size="large"
                 aria-label={name}
               >
-                {name} on Github
+                {name} on GitHub
               </a>
             </div>
+            {alt && (
+              <div>
+                <a
+                  className="github-button"
+                  href={alt}
+                  data-size="large"
+                  aria-label={name}
+                >
+                  {name} - Backend on GitHub
+                </a>
+              </div>
+            )}
             {name === 'Sounds (Front End)' && (
               <div>
                 <a

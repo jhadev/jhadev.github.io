@@ -1,15 +1,15 @@
-import React, { Component } from "react";
-import { Container, Row, Col } from "reactstrap";
-import projects from "../projects.json";
-import ProjectCard from "./ProjectCard";
-import ContactForm from "./ContactForm";
-import About from "./About";
-import { Animated } from "react-animated-css";
+import React, { Component } from 'react';
+import { Container, Row, Col } from 'reactstrap';
+import projects from '../projects.json';
+import ProjectCard from './ProjectCard';
+import ContactForm from './ContactForm';
+import About from './About';
+import { Animated } from 'react-animated-css';
 
 class Body extends Component {
   state = {
     projects,
-    tech: "",
+    tech: '',
     selectedProjects: []
   };
 
@@ -46,6 +46,7 @@ class Body extends Component {
                   description={project.description}
                   link={project.link}
                   tech={project.tech}
+                  alt={project.github_alt}
                 />
               ))}
             </Row>
