@@ -54,12 +54,13 @@
   },
   {
     "id": 7,
-    "name": "LIRI",
-    "image": "https://user-images.githubusercontent.com/42519030/57555862-6ff76c80-7343-11e9-991b-1608b9f28a97.png",
-    "description": "A Node.js CLI app that uses the OMDB, Spotify, and Bands In Town APIs to pull info about movies, songs, artists, and upcoming concerts.",
-    "github": "https://github.com/jhadev/liri",
+    "name": "Perfecto Importers",
+    "image": "https://user-images.githubusercontent.com/42519030/57555765-2444c300-7343-11e9-839c-7ad23b6dc85e.jpg",
+    "description": "A full stack application built for a wine importer. End product will allow potential customers and wine buyers to learn about the company and their wine portfolio, complete with a faux cart system (for legal reasons) to calculate costs of a potential order. It will also allow the owner of the company to easily add wines to the database through an admin panel.",
+    "github": "https://github.com/jhadev/perfecto",
+    "github_alt": "https://github.com/jhadev/perfecto-backend",
     "link": null,
-    "tech": "Node.js, node-spotify-api, Inquirer, Request, Moment.js"
+    "tech": "React, Bulma, Axios, React-Router, Python, Django, PostgreSQL, Django REST Framework"
   },
   {
     "id": 8,
@@ -78,15 +79,5 @@
     "github": "https://github.com/jhadev/object-oriented-quiz",
     "link": "https://jhadev.github.io/object-oriented-quiz/",
     "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, Lodash"
-  },
-  {
-    "id": 10,
-    "name": "Perfecto Importers",
-    "image": "https://user-images.githubusercontent.com/42519030/57555765-2444c300-7343-11e9-839c-7ad23b6dc85e.jpg",
-    "description": "A full stack application built for a wine importer. End product will allow potential customers and wine buyers to learn about the company and their wine portfolio, complete with a faux cart system (for legal reasons) to calculate costs of a potential order. It will also allow the owner of the company to easily add wines to the database through an admin panel.",
-    "github": "https://github.com/jhadev/perfecto",
-    "github_alt": "https://github.com/jhadev/perfecto-backend",
-    "link": null,
-    "tech": "React, Bulma, Axios, React-Router, Python, Django, PostgreSQL, Django REST Framework"
   }
 ]

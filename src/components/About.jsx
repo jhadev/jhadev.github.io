@@ -52,7 +52,7 @@ const About = () => {
         <div className="row mb-3">
           {icons.map((image, index) => (
             <div className="col-lg-2 col-md-3 col-4" key={index}>
-              <div className="img-fluid svg-img  p-2">{image}</div>
+              <div className="img-fluid svg-img p-2">{image}</div>
               <div className="my-1 svgNames">{image.props.name}</div>
             </div>
           ))}
@@ -63,7 +63,7 @@ const About = () => {
           data-size="large"
           aria-label="@jhadev GitHub"
         >
-          @jhadev Github
+          @jhadev GitHub
         </a>
         <div className="linked-in">
           <a
