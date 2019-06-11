@@ -39,7 +39,7 @@
     "id": 5,
     "name": "Live Chat",
     "image": "https://user-images.githubusercontent.com/42519030/59300284-cb778b80-8c5c-11e9-9598-c3683b4c8dac.jpg",
-    "description": "A work in progress live chat app built with React and Firebase. Users can sign up and chat in various rooms that can only be made my admins. Image uploading is handled with Cloudinary and link, image, video (mp4), audio (mp3) urls will display their content inline.",
+    "description": "A work in progress live chat app built with React and Firebase. Users can sign up and chat in various rooms that can only be made by admins. Image uploading is handled with Cloudinary and link, image, video (mp4), audio (mp3) urls will display their content inline.",
     "github": "https://github.com/jhadev/react-firebase-chat",
     "link": "https://radiant-wave-85955.herokuapp.com/",
     "tech": "React, React Hook and Context APIs, react-router-dom, Reactstrap, Recompose, Emoji-mart, Moment.js, Firebase"
