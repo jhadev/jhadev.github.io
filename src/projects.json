@@ -27,6 +27,34 @@
   },
   {
     "id": 4,
+    "name": "Perfecto Importers",
+    "image": "https://user-images.githubusercontent.com/42519030/57555765-2444c300-7343-11e9-839c-7ad23b6dc85e.jpg",
+    "description": "A full stack application built for a wine importer. End product will allow potential customers and wine buyers to learn about the company and their wine portfolio and calculate costs of a potential order. It will also allow the owner of the company to easily add wines to the database through an admin panel.",
+    "github": "https://github.com/jhadev/perfecto",
+    "github_alt": "https://github.com/jhadev/perfecto-backend",
+    "link": null,
+    "tech": "React, Bulma, Axios, React-Router, Python, Django, PostgreSQL, Django REST Framework"
+  },
+  {
+    "id": 5,
+    "name": "Live Chat",
+    "image": "https://user-images.githubusercontent.com/42519030/59300284-cb778b80-8c5c-11e9-9598-c3683b4c8dac.jpg",
+    "description": "A work in progress live chat app built with React and Firebase. Users can sign up and chat in various rooms that can only be made my admins. Image uploading is handled with Cloudinary and link, image, video (mp4), audio (mp3) urls will display their content inline.",
+    "github": "https://github.com/jhadev/react-firebase-chat",
+    "link": "https://radiant-wave-85955.herokuapp.com/",
+    "tech": "React, React Hook and Context APIs, react-router-dom, Reactstrap, Recompose, Emoji-mart, Moment.js, Firebase"
+  },
+  {
+    "id": 6,
+    "name": "Quizzes",
+    "image": "https://user-images.githubusercontent.com/42519030/55992168-eab46580-5c79-11e9-9c6d-8f0f6b3b242c.jpg",
+    "description": "A set of timed quizzes that can easily be adapted and combined by changing a few lines of code. I created this to get a better understanding of Object Oriented Programming.",
+    "github": "https://github.com/jhadev/object-oriented-quiz",
+    "link": "https://jhadev.github.io/object-oriented-quiz/",
+    "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, Lodash"
+  },
+  {
+    "id": 7,
     "name": "Simple Raffle",
     "image": "https://user-images.githubusercontent.com/42519030/53701452-8923f000-3dcb-11e9-8d2e-69ca8b2d2452.gif",
     "description": "As simple as adding the entrant's name and number of entries and hitting submit. Allows users to save their entries to local storage and load them with ease. Randomizes multiple times and displays a shuffling animation when picking a winner.",
@@ -35,7 +63,7 @@
     "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, Lodash, Moment.js, FontAwesome"
   },
   {
-    "id": 5,
+    "id": 8,
     "name": "Reddit TIL Scraper",
     "image": "https://user-images.githubusercontent.com/42519030/50379099-6cba4900-060d-11e9-98f2-8509e2e71a91.PNG",
     "description": "A scraper for the Reddit TodayILearned subreddit. Allows users to pull latest articles from the subreddit in chronological order and save notes for articles in the Mongo database.",
@@ -44,40 +72,12 @@
     "tech": "Handlebars, jQuery, Moment.js, Axios, Cheerio, Node.js, Express, MongoDB, Mongoose"
   },
   {
-    "id": 6,
+    "id": 9,
     "name": "Lottery Generator",
     "image": "https://user-images.githubusercontent.com/42519030/53699295-984b7380-3db4-11e9-8c03-7e6b1abfbb89.jpg",
     "description": "Generates lottery numbers for Pick 3, Pick 4, Cash 5, Pick, 6, Mega Millions, and Powerball. Uses an algorithm to display a tooltip of other combinations (box, wheel) of a generated number for Pick 3 or Pick 4.",
     "github": "https://github.com/jhadev/lotto",
     "link": "https://jhadev.github.io/lotto/",
     "tech": "HTML, CSS, JavaScript, jQuery, Lodash, Bootstrap, FontAwesome, Animate.css"
-  },
-  {
-    "id": 7,
-    "name": "Perfecto Importers",
-    "image": "https://user-images.githubusercontent.com/42519030/57555765-2444c300-7343-11e9-839c-7ad23b6dc85e.jpg",
-    "description": "A full stack application built for a wine importer. End product will allow potential customers and wine buyers to learn about the company and their wine portfolio, complete with a faux cart system (for legal reasons) to calculate costs of a potential order. It will also allow the owner of the company to easily add wines to the database through an admin panel.",
-    "github": "https://github.com/jhadev/perfecto",
-    "github_alt": "https://github.com/jhadev/perfecto-backend",
-    "link": null,
-    "tech": "React, Bulma, Axios, React-Router, Python, Django, PostgreSQL, Django REST Framework"
-  },
-  {
-    "id": 8,
-    "name": "Firebase Live Chat",
-    "image": "https://user-images.githubusercontent.com/42519030/57556531-50614380-7345-11e9-9ffa-e8a8f06c16a2.jpg",
-    "description": "A live chat app. Uses Google OAuth for user authentication and Google Firebase to allow messages to be sent, received, and displayed on the page in real time. Users can upload local images and video with Cloudinary. All posted image, video, and audio urls will display their content inline.",
-    "github": "https://github.com/jhadev/firebase-live-chat",
-    "link": "https://jhadev.github.io/firebase-live-chat/",
-    "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, Moment.js, Cloudinary API, Firebase, Google OAuth"
-  },
-  {
-    "id": 9,
-    "name": "Quizzes",
-    "image": "https://user-images.githubusercontent.com/42519030/55992168-eab46580-5c79-11e9-9c6d-8f0f6b3b242c.jpg",
-    "description": "A set of timed quizzes that can easily be adapted and combined by changing a few lines of code. I created this to get a better understanding of Object Oriented Programming.",
-    "github": "https://github.com/jhadev/object-oriented-quiz",
-    "link": "https://jhadev.github.io/object-oriented-quiz/",
-    "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, Lodash"
   }
 ]
