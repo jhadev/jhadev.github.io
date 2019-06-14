@@ -3,28 +3,29 @@
     "id": 1,
     "name": "curren$ee",
     "image": "https://user-images.githubusercontent.com/42519030/57336512-2cf38a00-70f4-11e9-9e00-909f9d0670fe.gif",
-    "description": "A budgeting app built with the MongoDB, Express, React, Node.js (MERN) stack. Worked on a team of 3 for this project. Users can login to their own accounts and enter their income and expenses, search for products on Walmart.com and add them to their budget, view stock and crypto charts, and visualize their money flow over time with a table and multiple charts.",
+    "description": "A budgeting app built with the MongoDB, Express, React, Node.js (MERN) stack. Worked on a team of 3 for this project. Users can manage their budget, search for products on Walmart.com and add them to their budget, view stock and crypto charts, and visualize their money flow over time with a table and multiple charts.",
     "github": "https://github.com/jhadev/currensee",
     "link": "https://pacific-ridge-46060.herokuapp.com/",
     "tech": "React, React-Router, Node.js, Material-UI, Prime-React, Chart.js, MongoDB, Express, Axios, Moment.js, Passport, Mongoose, Reactstrap, Concurrently, Walmart API, react-tradingview"
   },
+
   {
     "id": 2,
-    "name": "Sounds (Front End)",
-    "image": "https://user-images.githubusercontent.com/42519030/57633012-ceedf900-7570-11e9-90d2-152fc3cd8123.jpg",
-    "description": "A base to make a soundboard for anything. Another developer can clone this project and create their own soundboard in 2 steps as everything is dynamically created. Download below and test it out with your favorite TV show or movie as a theme.",
-    "github": "https://github.com/jhadev/sounds",
-    "link": "https://jhadev.github.io/sounds/",
-    "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, FontAwesome, Animate.css"
-  },
-  {
-    "id": 3,
     "name": "Sounds (Full Stack)",
     "image": "https://user-images.githubusercontent.com/42519030/57780679-bc053100-76f6-11e9-9445-5ec8da2009ba.jpg",
-    "description": "Building on top of the front end version, this version adds a backend using the Django REST Framework and PostgreSQL to manage data for the soundboards. Easily expandable by creating new Django apps for different themes.",
+    "description": "Building on top of the front end version below, this version adds a backend using the Django REST Framework and PostgreSQL to manage data for the soundboards. Easily expandable by creating new Django apps for different themes.",
     "github": "https://github.com/jhadev/py-sounds",
     "link": "https://pacific-brushlands-87351.herokuapp.com/",
     "tech": "Python, Django, Django REST Framework, WhiteNoise, Gunicorn, PostgreSQL, HTML, CSS, JavaScript, jQuery, Bootstrap, FontAwesome, Animate.css"
+  },
+  {
+    "id": 3,
+    "name": "Live Chat",
+    "image": "https://user-images.githubusercontent.com/42519030/59476537-31137580-8e1f-11e9-9db3-70aa7e2b7ed6.jpg",
+    "description": "A live chat app built with React and Firebase. Users can sign up and chat in various rooms and view all the currently registered users to direct message each other. Image uploading is handled with Cloudinary and link, image, video (mp4), audio (mp3) urls will display their content inline.",
+    "github": "https://github.com/jhadev/react-firebase-chat",
+    "link": "https://radiant-wave-85955.herokuapp.com/",
+    "tech": "React, React Hook and Context APIs, Sass, Cloudinary, React-Router-Dom, Reactstrap, Recompose, Emoji-mart, Moment.js, Firebase, SweetAlert"
   },
   {
     "id": 4,
@@ -38,39 +39,39 @@
   },
   {
     "id": 5,
-    "name": "Live Chat",
-    "image": "https://user-images.githubusercontent.com/42519030/59476537-31137580-8e1f-11e9-9db3-70aa7e2b7ed6.jpg",
-    "description": "A work in progress live chat app built with React and Firebase. Users can sign up and chat in various rooms that can only be made by admins. Image uploading is handled with Cloudinary and link, image, video (mp4), audio (mp3) urls will display their content inline.",
-    "github": "https://github.com/jhadev/react-firebase-chat",
-    "link": "https://radiant-wave-85955.herokuapp.com/",
-    "tech": "React, React Hook and Context APIs, Sass, Cloudinary, React-Router-Dom, Reactstrap, Recompose, Emoji-mart, Moment.js, Firebase, SweetAlert"
+    "name": "Sounds (Front End)",
+    "image": "https://user-images.githubusercontent.com/42519030/57633012-ceedf900-7570-11e9-90d2-152fc3cd8123.jpg",
+    "description": "A base to make a soundboard for anything. Another developer can clone this project and create their own soundboard in 2 steps as everything is dynamically created. Download below and test it out with your favorite TV show or movie as a theme.",
+    "github": "https://github.com/jhadev/sounds",
+    "link": "https://jhadev.github.io/sounds/",
+    "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, FontAwesome, Animate.css"
   },
   {
     "id": 6,
     "name": "Quizzes",
     "image": "https://user-images.githubusercontent.com/42519030/55992168-eab46580-5c79-11e9-9c6d-8f0f6b3b242c.jpg",
-    "description": "A set of timed quizzes that can easily be adapted and combined by changing a few lines of code. I created this to get a better understanding of Object Oriented Programming.",
-    "github": "https://github.com/jhadev/object-oriented-quiz",
-    "link": "https://jhadev.github.io/object-oriented-quiz/",
-    "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, Lodash"
+    "description": "A set of timed quizzes that can easily be adapted and combined by changing a few lines of code. I created this to get a better understanding of Object Oriented Programming and to test the Parcel bundler in a development environment.",
+    "github": "https://github.com/jhadev/parcel-quiz",
+    "link": "https://jhadev.github.io/parcel-quiz/",
+    "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, Lodash, Parcel.js"
   },
   {
     "id": 7,
-    "name": "Simple Raffle",
-    "image": "https://user-images.githubusercontent.com/42519030/53701452-8923f000-3dcb-11e9-8d2e-69ca8b2d2452.gif",
-    "description": "As simple as adding the entrant's name and number of entries and hitting submit. Allows users to save their entries to local storage and load them with ease. Randomizes multiple times and displays a shuffling animation when picking a winner.",
-    "github": "https://github.com/jhadev/raffle",
-    "link": "https://jhadev.github.io/raffle",
-    "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, Lodash, Moment.js, FontAwesome"
-  },
-  {
-    "id": 8,
     "name": "Reddit TIL Scraper",
     "image": "https://user-images.githubusercontent.com/42519030/50379099-6cba4900-060d-11e9-98f2-8509e2e71a91.PNG",
     "description": "A scraper for the Reddit TodayILearned subreddit. Allows users to pull latest articles from the subreddit in chronological order and save notes for articles in the Mongo database.",
     "github": "https://github.com/jhadev/reddit-scraper",
     "link": "https://gentle-river-12321.herokuapp.com/",
     "tech": "Handlebars, jQuery, Moment.js, Axios, Cheerio, Node.js, Express, MongoDB, Mongoose"
+  },
+  {
+    "id": 8,
+    "name": "Simple Raffle",
+    "image": "https://user-images.githubusercontent.com/42519030/53701452-8923f000-3dcb-11e9-8d2e-69ca8b2d2452.gif",
+    "description": "As simple as adding the entrant's name and number of entries and hitting submit. Allows users to save their entries to local storage and load them with ease. Randomizes multiple times and displays a shuffling animation when picking a winner.",
+    "github": "https://github.com/jhadev/raffle",
+    "link": "https://jhadev.github.io/raffle",
+    "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, Lodash, Moment.js, FontAwesome"
   },
   {
     "id": 9,
