@@ -61,8 +61,7 @@ const About = () => {
           className="github-button"
           href="https://github.com/jhadev"
           data-size="large"
-          aria-label="@jhadev GitHub"
-        >
+          aria-label="@jhadev GitHub">
           @jhadev GitHub
         </a>
         <div className="linked-in">
@@ -71,8 +70,7 @@ const About = () => {
             id="linked-in"
             href="http://linkedin.com/in/josh-a-9865bb175"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             <i className="mx-1 linked-size fab fa-linkedin icon-small" />
             LinkedIn
           </a>

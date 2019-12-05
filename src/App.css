@@ -1,29 +1,39 @@
 body {
   font-family: 'Lora', serif;
   background: #292e49 !important;
-  background: -moz-linear-gradient(top,
-      #292e49 0%,
-      #2e5fad 50%,
-      #292e49 100%) !important;
-  background: -webkit-gradient(linear,
-      left top,
-      left bottom,
-      color-stop(0%, #292e49),
-      color-stop(50%, #2e5fad),
-      color-stop(100%, #292e49)) !important;
-  background: -webkit-linear-gradient(top,
-      #292e49 0%,
-      #2e5fad 50%,
-      #292e49 100%) !important;
-  background: -o-linear-gradient(top,
-      #292e49 0%,
-      #2e5fad 50%,
-      #292e49 100%) !important;
+  background: -moz-linear-gradient(
+    top,
+    #292e49 0%,
+    #2e5fad 50%,
+    #292e49 100%
+  ) !important;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, #292e49),
+    color-stop(50%, #2e5fad),
+    color-stop(100%, #292e49)
+  ) !important;
+  background: -webkit-linear-gradient(
+    top,
+    #292e49 0%,
+    #2e5fad 50%,
+    #292e49 100%
+  ) !important;
+  background: -o-linear-gradient(
+    top,
+    #292e49 0%,
+    #2e5fad 50%,
+    #292e49 100%
+  ) !important;
   background: -ms-linear-gradient(top, #292e49 0%, #2e5fad 50%, #292e49 100%);
-  background: linear-gradient(to bottom,
-      #292e49 0%,
-      #2e5fad 50%,
-      #292e49 100%) !important;
+  background: linear-gradient(
+    to bottom,
+    #292e49 0%,
+    #2e5fad 50%,
+    #292e49 100%
+  ) !important;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#292e49', endColorstr='#292e49', GradientType=0);
   background-attachment: fixed !important;
 }
@@ -61,24 +71,27 @@ svg {
   font-size: 0.9rem;
 }
 
-
 #html {
-  filter: invert(36%) sepia(66%) saturate(1638%) hue-rotate(346deg) brightness(92%) contrast(92%);
+  filter: invert(36%) sepia(66%) saturate(1638%) hue-rotate(346deg)
+    brightness(92%) contrast(92%);
   animation: test infinite 20s linear;
 }
 
 #node {
-  filter: invert(23%) sepia(39%) saturate(760%) hue-rotate(86deg) brightness(99%) contrast(86%);
+  filter: invert(23%) sepia(39%) saturate(760%) hue-rotate(86deg)
+    brightness(99%) contrast(86%);
   animation: test infinite 20s linear;
 }
 
 #mongo {
-  filter: invert(51%) sepia(28%) saturate(898%) hue-rotate(55deg) brightness(94%) contrast(91%);
+  filter: invert(51%) sepia(28%) saturate(898%) hue-rotate(55deg)
+    brightness(94%) contrast(91%);
   animation: test infinite 20s linear;
 }
 
 #react {
-  filter: invert(70%) sepia(50%) saturate(3292%) hue-rotate(145deg) brightness(100%) contrast(107%);
+  filter: invert(70%) sepia(50%) saturate(3292%) hue-rotate(145deg)
+    brightness(100%) contrast(107%);
   animation: test infinite 20s linear;
 }
 
@@ -89,42 +102,50 @@ svg {
 } */
 
 #firebase {
-  filter: invert(62%) sepia(19%) saturate(4963%) hue-rotate(1deg) brightness(100%) contrast(103%);
+  filter: invert(62%) sepia(19%) saturate(4963%) hue-rotate(1deg)
+    brightness(100%) contrast(103%);
   animation: test infinite 20s linear;
 }
 
 #js {
-  filter: invert(83%) sepia(92%) saturate(7267%) hue-rotate(338deg) brightness(101%) contrast(94%);
+  filter: invert(83%) sepia(92%) saturate(7267%) hue-rotate(338deg)
+    brightness(101%) contrast(94%);
   animation: test infinite 20s linear;
 }
 
 #jquery {
-  filter: invert(22%) sepia(98%) saturate(5891%) hue-rotate(193deg) brightness(93%) contrast(94%);
+  filter: invert(22%) sepia(98%) saturate(5891%) hue-rotate(193deg)
+    brightness(93%) contrast(94%);
   animation: test infinite 20s linear;
 }
 
 #mysql {
-  filter: invert(22%) sepia(66%) saturate(2991%) hue-rotate(172deg) brightness(98%) contrast(101%);
+  filter: invert(22%) sepia(66%) saturate(2991%) hue-rotate(172deg)
+    brightness(98%) contrast(101%);
   animation: test infinite 20s linear;
 }
 
 #python {
-  filter: invert(42%) sepia(0%) saturate(1972%) hue-rotate(168deg) brightness(87%) contrast(80%);
+  filter: invert(42%) sepia(0%) saturate(1972%) hue-rotate(168deg)
+    brightness(87%) contrast(80%);
   animation: test infinite 20s linear;
 }
 
 #django {
-  filter: invert(12%) sepia(24%) saturate(1270%) hue-rotate(106deg) brightness(102%) contrast(96%);
+  filter: invert(12%) sepia(24%) saturate(1270%) hue-rotate(106deg)
+    brightness(102%) contrast(96%);
   animation: test infinite 20s linear;
 }
 
 #git {
-  filter: invert(0%) sepia(1%) saturate(4159%) hue-rotate(325deg) brightness(104%) contrast(60%);
+  filter: invert(0%) sepia(1%) saturate(4159%) hue-rotate(325deg)
+    brightness(104%) contrast(60%);
   animation: test infinite 20s linear;
 }
 
 #css {
-  filter: invert(24%) sepia(90%) saturate(2241%) hue-rotate(223deg) brightness(88%) contrast(103%);
+  filter: invert(24%) sepia(90%) saturate(2241%) hue-rotate(223deg)
+    brightness(88%) contrast(103%);
   animation: test infinite 20s linear;
 }
 
@@ -268,7 +289,6 @@ svg {
 }
 
 @media screen and (max-width: 990px) {
-
   /* .linked-in {
     margin-left: 25%;
     margin-right: 25%;
@@ -289,16 +309,14 @@ svg {
   .svgNames {
     font-size: 0.8rem;
   }
-
 }
 
 @media screen and (max-width: 570px) {
-
   .hvr-grow:hover,
   .hvr-grow:focus,
   .hvr-grow:active {
-    -webkit-transform: scale(1.0);
-    transform: scale(1.0);
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
 
   .project-card {
