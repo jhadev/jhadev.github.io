@@ -1,14 +1,14 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "http://jhadev.github.io/",
+  "homepage": "https://jhadev.github.io/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "add": "^2.0.6",
     "animate.css": "^3.7.0",
     "bootstrap": "^4.3.1",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.1.1",
     "react": "^16.8.3",
     "react-anchor-link-smooth-scroll": "^1.0.11",
     "react-animate-on-scroll": "^2.1.5",
